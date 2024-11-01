@@ -1,0 +1,405 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.ul-1{
+    position: absolute;
+    font-size: 40px;
+    right: 30px;
+    bottom: 70px;
+    position: fixed;
+    z-index: 10;
+    color: cyan;
+}
+.d-block{
+    height: 100vh;
+}
+.carousel-caption{
+    width: 400px;
+    height: 180px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.form{
+    width: 100%;
+    height: 260px;
+    background-color: gray;
+    border-radius: 10px;
+    line-height: 20px;
+}
+.form h2{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.teacx{
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.buttyn{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.img{
+    width: 100%;
+    height: 80vh;
+    background:url(https://media.istockphoto.com/id/656315424/photo/kyrenia-castle-view-in-northern-cyprus.jpg?s=1024x1024&w=is&k=20&c=GGjyjC8wnaTn2lghzZA45JmMtLdbugikS_DNjiJteMI=);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 20px;
+}
+.card-img-top{
+    background-size: cover;
+}
+.row{
+    margin: 30px;
+}
+.row{
+    position: relative;
+}
+.card-img-top:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 100px;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+.card-img-top:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.simle{
+    width: 100%;
+    height: 17vh;
+    border-radius: 10px;
+}
+.img2{
+    width: 100%;
+    height: 80vh;
+    background:url(https://media.istockphoto.com/id/1248396287/photo/croatia-dubrovnik-waterfront-view.jpg?s=1024x1024&w=is&k=20&c=HGM2Ke-otpkbzAv2ism-yJxA0GfEpID9DLbHHEzrs5Y=);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.alert{
+    width: 100%;
+}
+.container{
+    margin-top: 100px;
+}
+.thiks{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+}
+.pearint{
+    position: relative;
+}
+.imgens{
+    width: 300px;
+    height: 400px;
+    background-image: url(https://media.istockphoto.com/id/1699053108/photo/aerial-view-of-dubrovnik-by-twilight.jpg?s=1024x1024&w=is&k=20&c=EcR1zkZDht3nkZrxC5qXdqY22fJHde8fjuOi7PRN8to=);
+    background-size: cover;
+    border-radius: 20px;
+    position: absolute;
+}
+.colarsn{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.borders{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://i.pinimg.com/564x/bd/d3/37/bdd337df0937a3135967db9e706d12f5.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 270px;
+    margin-left: 20px;
+}
+.h2-h{
+    font-size: 18px;
+    margin: 20px 20px;
+}
+.paidng{
+    padding-top: 100px;
+    font-size: 18px;
+}
+ .p{
+    margin-left: 400px;
+}
+ .pp{
+    margin-left: 800px;
+} 
+.colarsn:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+    transform: scale(0.97);
+}
+.befoar::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.4;
+}
+.befoar:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transition: 0.4s;
+}
+.befoar::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.2;
+}
+.befoar:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 0.4s;
+}
+.w25{
+    margin-top: 500px;
+    text-align: center;
+    font-size: 60px;
+    text-shadow:0px 5px 10px #0ee190;
+}
+.bordar{
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgb(248, 242, 242);
+    border-radius: 20px 150px 20px 20px;
+    box-shadow:-7px 2px 68px 0px #eaebef ;
+}
+.heihte{
+    margin-left: 850px;
+    border-radius: 20px 20px 30px 20px;
+    transform:matrix(1.00,0.00,0.20,1.00,0,0);
+}
+.titel{
+    margin: 10px 30px;
+}
+.titew {
+    margin: 10px 30px;
+}
+.titwe {
+    margin: 10px 30px;
+    padding-top: 80px;
+}
+.mony{
+    position: absolute;
+    width: 150px;
+    height: 4px;
+    background-color: black;
+    margin-top: 80px ;
+    margin-left: 30px;
+}
+.mony:hover{
+    width: 230px;
+    height: 4px;
+}
+.btn-group{
+    font-size: 40px;
+}
+.but-1{
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid lavender;
+    margin: 230px 30px;
+    background-color: black;
+    color: aliceblue;
+}
+.but-2{
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid lavender;
+    margin: 230px 150px;
+    background-color: black;
+    color: aliceblue;
+    transform: scale(0.97);
+}
+.but-3{
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid lavender;
+    margin: 230px 260px;
+    background-color: black;
+    color: aliceblue;
+    transform: scale(0.97);
+}
+.but-1:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.but-2:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.but-3:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.reich1{
+    width: 100%;
+    height: 300px;
+    margin-top: 60px;
+    border: 1px solid rgb(248, 242, 242);
+    border-radius: 20px 20px 20px 180px;
+    box-shadow:-7px 2px 68px 0px #bbbbbb ;
+}
+.reich2 {
+    border-radius: 20px 20px 10px 10px;
+    transform:matrix(1.00,0.00,0.20,1.00,0,0);
+}
+.ter2{
+    margin: 20px 30px;
+    margin-left: 50px;
+}
+.stretched-link{
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid lavender;
+    background-color: black;
+    color: aliceblue;
+}
+.titew2{
+    top: 40px;
+    margin-left: 50px;
+}
+#but-3{
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid lavender;
+    background-color: black;
+    color: aliceblue;
+}
+#but-2{
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid lavender;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 20px;
+}
+#but-3:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.rounded{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+.joions{
+    width: 250px;
+    height: 180px;
+    border: 1px solid rgb(227, 224, 224);
+    box-shadow:-7px 2px 68px 0px #d4d6db ;
+    border-radius: 20px;
+}
+.twit1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: black;
+    font-size: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.fontd{
+    font-size: 22px;
+}
+.accordion{
+    box-shadow:-7px 2px 68px 0px #d4d6db ;
+}
+.company1{
+    width: 100%;
+    height: 65vh;
+    border: 1px solid gray;
+    background-color: black;
+}
+.tel1{
+    width: 300px;
+    height: 1px;
+    background-color: aliceblue;
+    margin: 30px 30px; 
+}
+.tel2{
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    background-image: url(https://media.istockphoto.com/id/471687140/photo/dubrovnik-in-croatia.jpg?s=1024x1024&w=is&k=20&c=Fhj26BYI6y2-SKoC0EsHsFAutd2FvCq8FdrcdrDbWkc=);
+    background-size: cover;
+    margin: 30px 100px;
+}
+.textn1{
+    font-size: 18px;
+    margin-left: 200px;
+    top: 90px;
+}
+.ul1{
+    margin-left: 100px;
+}
+.copy1{
+    margin-left: 450px;
+}
+.copy2{
+    margin-left: 900px;
+}
+.tel4{
+    width: 100%;
+    height: 2px;
+    background-color: #d4d6db;
+    margin-top: 300px;
+}
+.her5{
+text-align: center;
+margin-top: 20px;
+}
+.tel6{
+    width: 100%;
+    height: 2px;
+    background-color: #d4d6db;
+    margin-top: 30px;
+}
+.modal-backdrop{
+    z-index: -1 !important;
+}
+.kk{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
